@@ -1,0 +1,32 @@
+
+{
+  "name": "itelect4-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "dev": "tsx watch src/server.ts",
+  "build": "tsc",
+  "start": "node dist/server.js",
+  "typecheck": "tsc --noEmit"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "...",
+    "cors": "...",
+    "dotenv": "...",
+    "express": "...",
+    "jsonwebtoken": "...",
+    "mongoose": "..."
+  },
+  "devDependencies": {
+    "@types/cors": "...",
+    "@types/express": "...",
+    "@types/jsonwebtoken": "...",
+    "@types/node": "...",
+    "tsx": "...",
+    "typescript": "..."
+  }
+}
