@@ -2,31 +2,38 @@
 {
   "name": "itelect4-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-"scripts": {
-  "dev": "tsx watch src/server.ts",
-  "build": "tsc",
-  "start": "node dist/server.js",
-  "typecheck": "tsc --noEmit"
-},
-  "keywords": [],
+  "private": true,
+  "description": "ITELECT4 Library App Backend API",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "library",
+    "express",
+    "mongodb",
+    "typescript",
+    "jwt"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "...",
-    "cors": "...",
-    "dotenv": "...",
-    "express": "...",
-    "jsonwebtoken": "...",
-    "mongoose": "..."
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0"
   },
   "devDependencies": {
-    "@types/cors": "...",
-    "@types/express": "...",
-    "@types/jsonwebtoken": "...",
-    "@types/node": "...",
-    "tsx": "...",
-    "typescript": "..."
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^22.18.6",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
   }
 }
